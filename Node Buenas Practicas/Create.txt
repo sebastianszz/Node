@@ -1,0 +1,17 @@
+mkdir my-first-project
+
+cd my-first-project
+
+code .
+
+npm init -y
+
+touch .gitignore
+
+touch .editorconfig
+
+touch .eslintrc.json
+
+touch index.js
+
+npm i nodemon eslint eslint-config-prettier eslint-plugin-prettier prettier -D
